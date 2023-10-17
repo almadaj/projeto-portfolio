@@ -1,0 +1,38 @@
+section.interests {
+  padding: 50px 5%;
+}
+
+section.interest-content .flex {
+  gap: 60px;
+}
+
+.interests .interest-box {
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+  border: 2px solid white;
+  transition: 0.2s;
+}
+
+h2.title {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+
+.interest-content span {
+  color: #ff0060;
+}
+
+.interest-box i {
+  font-size: 80px;
+  color: #ff0060;
+}
+
+.interest-box h3 {
+  font-size: 28px;
+  margin: 15px 0;
+  padding-bottom: 10px;
+}
