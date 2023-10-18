@@ -10,15 +10,21 @@ section.interest-content .flex {
   color: #fff;
   padding: 40px;
   border-radius: 20px;
-  margin-top: 45px;
-  border: 2px solid white;
+  margin-top: 60px;
+  border: 2px solid transparent;
   transition: 0.2s;
 }
 
+.interests .interest-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.397);
+}
+
 h2.title {
+  margin-top: 150px;
   color: white;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
 }
 
