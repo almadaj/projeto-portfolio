@@ -1,0 +1,55 @@
+section.aboutme {
+  padding: 80px 4%;
+}
+
+section.aboutme .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.flex .aboutme-img img {
+  height: 650px;
+}
+
+.aboutme .aboutme-text {
+  color: white;
+}
+
+.aboutme .aboutme-text h2 {
+  font-size: 50px;
+  color: white;
+  line-height: 50px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.aboutme .aboutme-text h2 span {
+  color: #ff0060;
+  display: block;
+}
+
+.aboutme .aboutme-text p {
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.aboutme-text .social-btn button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: none;
+  font-size: 25px;
+  color: white;
+  background-color: #ff0060;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.aboutme-text .social-btn button:hover {
+  box-shadow: 0 0 8px #ff0060;
+  transform: scale(1.05);
+}

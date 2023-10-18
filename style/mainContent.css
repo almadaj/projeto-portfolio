@@ -5,7 +5,7 @@
   max-height: 100vh;
 }
 
-.flex {
+section.top-main .flex {
   display: flex;
   align-items: center;
   justify-content: center;
