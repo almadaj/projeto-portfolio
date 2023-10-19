@@ -23,7 +23,7 @@ section.interests .flex {
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.397);
 }
 
-h2.title {
+.interest-content h2.title {
   margin-top: 150px;
   color: white;
   font-weight: 800;
