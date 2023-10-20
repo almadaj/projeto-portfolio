@@ -102,3 +102,29 @@ footer {
   box-shadow: 0 0 8px #ff0060;
   transform: scale(1.05);
 }
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+footer a {
+  color: #ff0060;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.logo-footer img {
+  width: 350px;
+}
+
+.bottom-footer p i {
+  font-size: 22px;
+}
+
+.line {
+  padding-top: 30px;
+  border-top: 3px solid #ff0060;
+}
